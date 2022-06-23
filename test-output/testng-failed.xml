@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [amazon_Menu]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Amazon Menu Search(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.amazonMenu.testCases.TC_SearchTest_001">
+        <methods>
+          <include name="searchMenu"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.amazonMenu.testCases.TC_SearchTest_001 -->
+    </classes>
+  </test> <!-- Amazon Menu Search(failed) -->
+</suite> <!-- Failed suite [amazon_Menu] -->
